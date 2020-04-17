@@ -1,14 +1,23 @@
-ul {
-    display: inline-flex;
+.navbar ul {
+    display: flex;
     list-style-type: none;
     font-size: larger;
-    
+    widows: 100%;
+    justify-content: center;
+    background: black;
     /* grid-template-columns: repeat(5, 1fr); */
     /* grid-gap: 10%; */
     /* grid-auto-rows: minmax(100px, auto); */
   }
-  ul > li {
-    display: inline;
-    margin: 0 10px;
-    vertical-align: top;
+  .navbar > ul > li {
+    flex: 0 1 100px;
+    background: purple;
+    margin: 5px 30px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    
+  }
+  .navbar > ul > li :hover {
+    background-color: lightgray;
   }
