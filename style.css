@@ -1,0 +1,83 @@
+
+
+.headHome{
+    /* height: 10vh; */
+}
+
+/* navbar */
+.navBar {
+    list-style-type: square;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #24292E;
+    height: 4vh;
+    padding: 20px;
+    padding-bottom: 10px;
+
+    
+}
+.navBar li a {
+    margin: px;
+    padding: 0.8vh;
+    text-decoration: none;
+    color: white;
+    position: sticky;
+    
+}
+.navBar li a:hover{
+    background-color: #3F4448;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width:500px) {
+    .navBar {
+        flex-direction: column;
+        height: 80px;
+        border: 0px;
+        
+        /* background-color: yellowgreen; */
+    }
+    .navBar li a {
+        margin: px;
+        padding: 0.8vh;
+        text-decoration: none;
+        color: white;
+        padding: 0px;
+    }
+
+
+}
+
+
+/* Project page  */
+.projectlist{
+    display: grid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* skills */
+.lyndabutton{
+    background: lightblue;
+    border-radius: 5px;
+    
+}
+.lyndabutton > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
