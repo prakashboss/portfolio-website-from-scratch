@@ -26,16 +26,16 @@
     /* background-color: black; */
     
 }
-.clockp1 img {
+.clockp1 a img {
     height: 100%;
     width: 100%;
     margin: 0px;
     grid-row: 2/3;  
 }
 /* lynda part for small phone */
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
 
-    .clockp1 img {
+    .clockp1 a img {
         height: 100%;
         width: 100%;
         /* grid-column: 1/3; */
@@ -98,7 +98,7 @@
     font-weight: 700;
 }
 /* solo part for small screens:( */
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
 
     .aspmvcp2 img {
         /* height: 80vw; */
@@ -127,7 +127,7 @@
 /* grid items for type accuracy */
 .speedp3 {
     grid-column: 1/2;
-    background-color: rgb(4, 49, 8);
+    background-color: white;
     color: darkgray;
     display: grid;
     grid-template-rows: 50px 400px 30px;
@@ -137,21 +137,28 @@
     font-weight: 900;
     font-size: 20px;
     grid-row: 1\ 2;
-    /* background-color: black; */
+    color: black; 
     
+}
+.speedp3 h2 {
+    color: black;
 }
 .speedp3 img {
     height: 100%;
-    width: 100%;
+    width: 400px;
     /* margin: 100px; */
     grid-row: 2/3;  
+    margin-right: auto;
+    margin-left: auto;
 }
 /* typeaccuracy  part for small phone */
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
 
     .speedp3 img {
         height: 100%;
-        width: 100%;
+        width: 400px;
+        margin-right: auto;
+        margin-left: auto;
         /* grid-column: 1/3; */
     }
     .speedp3 {
