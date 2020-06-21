@@ -5,9 +5,10 @@
     /* background-color: linear-gradient (orange,black); */
 }
 body{
-    background: linear-gradient(to left, rgba(250, 113, 113, 0.938),rgb(100, 102, 102));
+    background: rgb(30,31,48);
     z-index: -1;
     min-width: 300px;
+    color: white;
 }
 
 
@@ -21,7 +22,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: #24292E;
+    background-color: rgb(235,235,235);
     min-height: 4vh;
     padding: 20px;
     padding-bottom: 30px;
@@ -37,7 +38,7 @@ body{
     margin: px;
     padding: 0.8vh;
     text-decoration: none;
-    color: orangered;
+    color: black;
     position: sticky;
 
     
@@ -55,8 +56,17 @@ body{
     color: white;
     font-weight: 800;
 }
+footer {
+    font-size: .75rem;
+    font-weight: 600;
+    background: #ebebeb;
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
     .navBar {
         flex-direction: column;
         height: 20vh;
@@ -73,3 +83,4 @@ body{
 
 
 }
+
